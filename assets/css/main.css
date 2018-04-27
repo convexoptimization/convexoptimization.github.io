@@ -707,10 +707,10 @@ button:disabled:hover,button:disabled :focus{
     padding:0.2rem
 }
 .post-card__header h2{
-    font-size:20px
+    font-size:16px
 }
 .post-card__inner p{
-    font-size:15px
+    font-size:14px
 }
 .pagination{
     display:-webkit-box;
