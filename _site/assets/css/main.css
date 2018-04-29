@@ -706,11 +706,14 @@ button:disabled:hover,button:disabled :focus{
     color:#049ece;
     padding:0.2rem
 }
+.post-card__categories a{
+    color:#00aae0
+}
 .post-card__header h2{
-    font-size:20px
+    font-size:16px
 }
 .post-card__inner p{
-    font-size:15px
+    font-size:14px
 }
 .pagination{
     display:-webkit-box;
@@ -1295,6 +1298,52 @@ i.fa.fa-tag{
 .post-categories a{
     color:white;
 }
+.archive-group{
+    width: 100%;
+    float: left;
+}
+.archive-container{
+    width:100%;
+}
+.archive-item{
+    width:100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.archive-item:nth-child(2n){
+    float: right;
+}
+.archive-item p{
+    font-size: 14px!important;
+}
+.archive-post__thumb{
+    margin:0 10px 0 0;
+    background:#fff;
+    position:relative;
+    overflow:hidden;
+    width: 6em;
+    float: left;
+}
+.archive-post__thumb::after{
+    content:"";
+    display:block;
+    height:0;
+    width:100%;
+    padding-bottom:56.25%
+}
+.archive-post__thumb>*{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:block
+}
+@media (min-width: 48em){
+    .archive-item{
+        width:48%;
+    }
+}
 .infinite-spinner {
      display: block;
      width: 40px;
@@ -1326,4 +1375,3 @@ i.fa.fa-tag{
     }
 }
 /*# sourceMappingURL=maps/main.css.map */
- 
