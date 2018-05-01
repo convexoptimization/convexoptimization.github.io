@@ -642,7 +642,13 @@ button:disabled:hover,button:disabled :focus{
     -webkit-transition:-webkit-box-shadow .25s ease;
     transition:-webkit-box-shadow .25s ease;
     transition:box-shadow .25s ease;
-    transition:box-shadow .25s ease, -webkit-box-shadow .25s ease
+    transition:box-shadow .25s ease, -webkit-box-shadow .25s ease;
+}
+.post-card img{
+    transition: transform .3s;
+}
+.post-card img:hover{
+    transform: scale(1.1);
 }
 .post-card:hover,.post-card:focus{
     border-bottom:0;
@@ -1316,6 +1322,30 @@ i.fa.fa-tag{
 .archive-item p{
     font-size: 14px!important;
     color: #474747
+}
+.archive-item img{
+    border-radius: 4px;
+    transition: transform .3s;
+}
+.archive-item img:hover{
+    transform: scale(1.1);
+}
+.archive-item figure{
+    border-radius: 4px;
+    -webkit-box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    -webkit-transition: -webkit-box-shadow .25s ease;
+    transition: -webkit-box-shadow .25s ease;
+    transition: box-shadow .25s ease;
+    transition: box-shadow .25s ease, -webkit-box-shadow .25s ease;
+}
+.archive-item figure:hover{
+    -webkit-box-shadow: 3px 3px 20px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+    -webkit-transition: -webkit-box-shadow .25s ease;
+    transition: -webkit-box-shadow .25s ease;
+    transition: box-shadow .25s ease;
+    transition: box-shadow .25s ease, -webkit-box-shadow .25s ease;
 }
 .archive-post__thumb{
     margin:0 10px 0 0;
