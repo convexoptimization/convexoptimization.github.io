@@ -227,6 +227,14 @@ h1,h2,h3,h4,h5,h6{
     margin-top:0;
     margin-bottom:.5rem
 }
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6{
+    color:#2993d4;
+}
 a{
     color:#277cea;
     text-decoration:none;
@@ -1384,7 +1392,7 @@ i.fa.fa-tag{
 }
 .alert{
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     padding: 15px;
     font-size: 14px;
     color: #264c72;
