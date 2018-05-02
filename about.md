@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+<!--
 ## What is this?
 
 An excellent blog about Convex optimizaion and Application.
@@ -15,7 +16,7 @@ An amazing introduction to area of optimization. Beside, many interested applica
 Anyone interesting in **Mathematics** and **Programming**.
 
 A basic background in mathematics is adviced. However, we wrote everything as clear as possible so that you would be comfortable to follow.
-
+-->
 ## Author
 
 It is a secret :-)
