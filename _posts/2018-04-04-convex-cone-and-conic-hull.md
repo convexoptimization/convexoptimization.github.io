@@ -2,8 +2,12 @@
 layout: post
 title: "Convex cone and conic hull"
 categories: [Convex theory]
+tags: []
 maths: true
 featured-img: convex-cone.jpg
+description: Definition of convex cone and connic hull. A set is called a convex cone if... Conic hull of a set is the set of all conic combination... Convex theory, Convex optimization and Applications
+keywords: [convex cone, conic hull]
+
 ---
 # Cone and convex cone
 
